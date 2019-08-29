@@ -7,10 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
         String targetStop = "Grand Central";
-        String stopFile = "C:\\Users\\F8Full\\Downloads\\NYC-MTA-Subway\\stops.txt";
-        String stopTimeFile = "C:\\Users\\F8Full\\Downloads\\NYC-MTA-Subway\\stop_times.txt";
-        String tripFile = "C:\\Users\\F8Full\\Downloads\\NYC-MTA-Subway\\trips.txt";
-        String routeFile = "C:\\Users\\F8Full\\Downloads\\NYC-MTA-Subway\\routes.txt";
+        String targetDirectory = "gtfs\\";
+        String stopFile = targetDirectory + "stops.txt";
+        String stopTimeFile = targetDirectory + "stop_times.txt";
+        String tripFile = targetDirectory + "trips.txt";
+        String routeFile = targetDirectory + "routes.txt";
 
         BufferedReader br;
         String line;
