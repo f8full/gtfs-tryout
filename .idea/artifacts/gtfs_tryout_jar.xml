@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gtfs-tryout:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gtfs_tryout_jar</output-path>
+    <root id="archive" name="gtfs-tryout.jar">
+      <element id="module-output" name="gtfs-tryout" />
+    </root>
+  </artifact>
+</component>
